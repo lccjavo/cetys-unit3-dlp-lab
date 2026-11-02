@@ -1,0 +1,22 @@
+# Gitleaks configuration for the CETYS Unit 3 Data Loss Prevention lab.
+#
+# The official Gitleaks rules are kept, and one custom rule is added for a
+# SYNTHETIC credential format that exists only in this lab:
+#
+#     cetyslab_sk_ followed by exactly 32 alphanumeric characters
+#
+# Tokens in this format are generated at runtime by scripts/setup_demo.py.
+# No tracked file contains a complete token, so the rule produces no findings
+# in the project's documentation or source code.
+
+title = "CETYS Unit 3 - DLP lab rules"
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "cetys-lab-token"
+description = "CETYS DLP lab synthetic token (fictional credential)"
+regex = '''\bcetyslab_sk_[A-Za-z0-9]{32}\b'''
+keywords = ["cetyslab_sk_"]
+tags = ["cetys", "lab", "fictional-credential"]

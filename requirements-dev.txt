@@ -1,0 +1,3 @@
+# Dependencies for validating the repository (not needed by students).
+-r requirements.txt
+pytest==9.2.0

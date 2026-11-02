@@ -1,0 +1,9 @@
+customer_id,segment,city,region,plan,purchases_last_year,customer_since
+C-1001,Small business,Mexicali,Baja California,Basic,12,2019
+C-1002,Enterprise,Tijuana,Baja California,Enterprise,48,2017
+C-1003,Small business,Ensenada,Baja California,Basic,7,2021
+C-1004,Education,Hermosillo,Sonora,Academic,15,2020
+C-1005,Government,La Paz,Baja California Sur,Institutional,22,2018
+C-1006,Small business,Tecate,Baja California,Basic,5,2023
+C-1007,Enterprise,Monterrey,Nuevo Leon,Enterprise,61,2016
+C-1008,Healthcare,Guadalajara,Jalisco,Professional,19,2022

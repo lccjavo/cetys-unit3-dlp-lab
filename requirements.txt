@@ -1,0 +1,4 @@
+# Lab dependencies (Python 3.10 or newer).
+# datafog-core is the current DataFog package (not the older "datafog" package).
+# Rule-based scanning runs locally, without model downloads or network access.
+datafog-core==1.0.0

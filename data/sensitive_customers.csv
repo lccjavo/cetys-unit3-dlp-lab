@@ -1,0 +1,9 @@
+customer_id,name,email,phone,city,plan,notes
+C-2001,Ana Ramirez Soto,ana.ramirez@example.com,+52 686 555 0101,Mexicali,Basic,Frequent customer
+C-2002,Luis Hernandez Vega,luis.hernandez@example.org,+52 664 555 0102,Tijuana,Enterprise,Alternate contact: lhv.purchasing@example.net
+C-2003,Maria Fernanda Ortiz,mf.ortiz@example.com,+52 646 555 0103,Ensenada,Basic,Renewal pending
+C-2004,Jorge Castillo Pena,jorge.castillo@example.net,+52 662 555 0104,Hermosillo,Academic,Call +52 662 555 0199 after 4 pm
+C-2005,Sofia Navarro Leon,sofia.navarro@example.org,+52 612 555 0105,La Paz,Institutional,No remarks
+C-2006,Ricardo Medina Ruiz,r.medina@example.com,+52 665 555 0106,Tecate,Basic,Requested electronic invoice
+C-2007,Daniela Flores Ibarra,daniela.flores@example.com,+52 818 555 0107,Monterrey,Enterprise,Send contract to legal.dfi@example.org
+C-2008,Pablo Gutierrez Mora,pablo.gutierrez@example.net,+52 333 555 0108,Guadalajara,Professional,New customer
